@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* variables */
+
+:root {
+    --color-footer: #777264;
+}
+
+/* fonts */
+
+/* tag selectors */
+
+body {
+    background-image: url("../img/spring/bg.gif");
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+header {
+    background: url(../img/spring/top-bg.png) no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-image: url(../img/spring/footer-bg.png);
+    background-repeat: repeat-x;
+    background-color: var(--color-footer);
+    background-position: top center;
+}
+
+/* id selectors */
+
+#search-box {
+    position: relative;
+}
+
+#search {
+    color: gray;
+}
+
+#go {
+    position: absolute;
+    top: -8px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: url(../img/go-button.png) no-repeat transparent;
+    z-index: 3;
+}
+
+/* class selectors */
+
+
+/* custom responsive */
+
