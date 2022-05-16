@@ -3,10 +3,22 @@
 /* variables */
 
 :root {
+    --color-orange: #e1820b;
+    --color-dark: #665d4e;
+    --color-darken: #3e372b;
     --color-footer: #777264;
+    --color-gray: #b8b6aa;
 }
 
 /* fonts */
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url("../fonts/helvetica.woff") format("woff"),
+    url("../fonts/helvetica.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* tag selectors */
 
@@ -14,14 +26,30 @@ body {
     background-image: url("../img/spring/bg.gif");
     background-repeat: repeat-x;
     background-position: top center;
+    font-family: Arial, 'Helvetica', sans-serif;
 }
 
 header {
     background: url(../img/spring/top-bg.png) no-repeat;
 }
 
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+hr {
+    padding: 1px;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-orange);
+    text-decoration: underline;
 }
 
 footer {
@@ -29,6 +57,7 @@ footer {
     background-repeat: repeat-x;
     background-color: var(--color-footer);
     background-position: top center;
+    font-size: 13px;
 }
 
 /* id selectors */
@@ -54,6 +83,38 @@ footer {
 
 /* class selectors */
 
+.fg-color-orange {
+    color: var(--color-orange);
+}
+
+.bg-color-orange {
+    background-color: var(--color-orange);
+}
+
+.fg-color-dark {
+    color: var(--color-dark);
+}
+
+.bg-color-dark {
+    background-color: var(--color-dark);
+}
+
+.fg-color-darken {
+    color: var(--color-darken);
+}
+
+.bg-color-darken {
+    background-color: var(--color-darken);
+}
+
+.fg-color-gray  {
+    color: var(--color-gray);
+}
+
+.bg-color-gray {
+    background-color: var(--color-gray);
+}
 
 /* custom responsive */
+
 

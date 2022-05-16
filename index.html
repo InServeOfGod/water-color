@@ -12,9 +12,9 @@
     <title>Watercolor</title>
 </head>
 <body>
-    <div class="position-relative mx-auto col-6 pb-5">
+    <div class="position-relative mx-auto col-xl-7 col-lg-9 col-md-11 pb-5 px-3">
         <header class="container-fluid py-5">
-            <form action="#" method="get" id="search-box" class="col-3 ms-auto">
+            <form action="#" method="get" id="search-box" class="col-md-3 col-sm-5 ms-auto">
                 <div class="input-group mb-3">
                     <label for="search"></label>
                     <input type="text" name="search" id="search" placeholder="Search..." class="form-control form-control-sm rounded">
@@ -33,19 +33,19 @@
 
                 <div class="row mt-3">
                     <div class="col">
-                        <a href="about.html" class="link-dark">ABOUT</a>
+                        <a href="about.html" class="fg-color-dark --">ABOUT</a>
                     </div>
 
                     <div class="col">
-                        <a href="gallery.html" class="link-dark">GALLERY</a>
+                        <a href="gallery.html" class="fg-color-dark --">GALLERY</a>
                     </div>
 
                     <div class="col">
-                        <a href="blog.html" class="link-dark">BLOG</a>
+                        <a href="blog.html" class="fg-color-dark --">BLOG</a>
                     </div>
 
                     <div class="col">
-                        <a href="contact.html" class="link-dark">CONTACT</a>
+                        <a href="contact.html" class="fg-color-dark --">CONTACT</a>
                     </div>
                 </div>
             </nav>
@@ -65,6 +65,12 @@
                     </div>
                 </div>
 
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -77,145 +83,148 @@
             </div>
         </section>
 
-        <article class="container-fluid p-0 my-5">
-            <h3 class="fw-bold px-1 py-3">FOUR DIFFERENT SKINS: SPRING, SUMMER, AUTUMN AND WINTER.</h3>
+        <article class="container-fluid p-0">
+            <h3 class="fw-bold px-1 py-3"><span class="fg-color-dark">FOUR DIFFERENT SKINS:</span>
+                <span class="fg-color-darken">SPRING, SUMMER, AUTUMN</span>
+                <span class="fg-color-dark">AND</span>
+                <span class="fg-color-darken"></span>WINTER.</h3>
 
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 text-center text-lg-start g-3">
                     <img src="img/dummies/dummy-block1.jpg" alt="book" class="img-thumbnail">
-                    <h4 class="text-dark fw-bold m-0">RECENT ALBUMS</h4>
-                    <h5 class="text-warning fw-bold m-0">IMAGES AND VIDEOS</h5>
+                    <h4 class="fg-color-dark fw-bold m-0">RECENT ALBUMS</h4>
+                    <h5 class="fg-color-orange fw-bold m-0">IMAGES AND VIDEOS</h5>
                     <hr class="bg-dark">
 
-                    <p class="text-muted">
+                    <p class="fg-color-dark mt-2">
                         Eleifend et eu est. Aenean tortor eros, sodales at bibendum vulputate, porttitor.Vestibulum sed
                         neque ac magna feugiat eleifend et eu est. Aenean tortor eros, sodales at bibendum vulputate,
                         porttitor.
                     </p>
 
-                    <a href="#" class="link-warning">More</a>
+                    <a href="#" class="fg-color-orange">More</a>
                 </div>
 
-                <div class="col">
+                <div class="col-md-4 text-center text-lg-start g-3">
                     <img src="img/dummies/dummy-block2.jpg" alt="book" class="img-thumbnail">
-                    <h4 class="text-dark fw-bold m-0">RECENT ALBUMS</h4>
-                    <h5 class="text-warning fw-bold m-0">IMAGES AND VIDEOS</h5>
+                    <h4 class="fg-color-dark fw-bold m-0">RECENT ALBUMS</h4>
+                    <h5 class="fg-color-orange fw-bold m-0">IMAGES AND VIDEOS</h5>
                     <hr class="bg-dark">
 
-                    <p class="text-muted">
+                    <p class="fg-color-dark mt-2">
                         Eleifend et eu est. Aenean tortor eros, sodales at bibendum vulputate, porttitor.Vestibulum sed
                         neque ac magna feugiat eleifend et eu est. Aenean tortor eros, sodales at bibendum vulputate,
                         porttitor.
                     </p>
 
-                    <a href="#" class="link-warning">More</a>
+                    <a href="#" class="fg-color-orange">More</a>
                 </div>
 
-                <div class="col">
+                <div class="col-md-4 text-center text-lg-start g-3">
                     <img src="img/dummies/dummy-block1.jpg" alt="book" class="img-thumbnail">
-                    <h4 class="text-dark fw-bold m-0">RECENT ALBUMS</h4>
-                    <h5 class="text-warning fw-bold m-0">IMAGES AND VIDEOS</h5>
+                    <h4 class="fg-color-dark fw-bold m-0">RECENT ALBUMS</h4>
+                    <h5 class="fg-color-orange fw-bold m-0">IMAGES AND VIDEOS</h5>
                     <hr class="bg-dark">
 
-                    <p class="text-muted">
+                    <p class="fg-color-dark mt-2">
                         Eleifend et eu est. Aenean tortor eros, sodales at bibendum vulputate, porttitor.Vestibulum sed
                         neque ac magna feugiat eleifend et eu est. Aenean tortor eros, sodales at bibendum vulputate,
                         porttitor.
                     </p>
 
-                    <a href="#" class="link-warning">More</a>
+                    <a href="#" class="fg-color-orange">More</a>
                 </div>
             </div>
         </article>
     </div>
 
     <footer class="container-fluid p-0 mt-5">
-        <div class="col-5 mx-auto pt-5">
-            <div class="row">
-                <div class="col">
+        <div class="col-6 mx-auto pt-5">
+            <div class="row my-3 text-center text-lg-start">
+                <div class="col-lg-3 col-md-6">
                     <h6 CLASS="text-white fw-bold">SKINS</h6>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="link-light">Spring</a>
+                            <a href="#" class="fg-color-gray">Spring</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Summer</a>
+                            <a href="#" class="fg-color-gray">Summer</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Autumn</a>
+                            <a href="#" class="fg-color-gray">Autumn</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Winter</a>
+                            <a href="#" class="fg-color-gray">Winter</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-3 col-md-6">
                     <h6 CLASS="text-white fw-bold">GALLERY </h6>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="link-light">Spring</a>
+                            <a href="#" class="fg-color-gray">Spring</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Summer</a>
+                            <a href="#" class="fg-color-gray">Summer</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Autumn</a>
+                            <a href="#" class="fg-color-gray">Autumn</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Winter</a>
+                            <a href="#" class="fg-color-gray">Winter</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-3 col-md-6">
                     <h6 CLASS="text-white fw-bold">BLOG</h6>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="link-light">Spring</a>
+                            <a href="#" class="fg-color-gray">Spring</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Summer</a>
+                            <a href="#" class="fg-color-gray">Summer</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Autumn</a>
+                            <a href="#" class="fg-color-gray">Autumn</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Winter</a>
+                            <a href="#" class="fg-color-gray">Winter</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-3 col-md-6">
                     <h6 CLASS="text-white fw-bold">TEXT STYLES</h6>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="link-light">Spring</a>
+                            <a href="#" class="fg-color-gray">Spring</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Summer</a>
+                            <a href="#" class="fg-color-gray">Summer</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Autumn</a>
+                            <a href="#" class="fg-color-gray">Autumn</a>
                         </li>
 
                         <li>
-                            <a href="#" class="link-light">Winter</a>
+                            <a href="#" class="fg-color-gray">Winter</a>
                         </li>
                     </ul>
                 </div>
