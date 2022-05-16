@@ -23,10 +23,17 @@
 /* tag selectors */
 
 body {
+    font-family: Arial, 'Helvetica', sans-serif;
     background-image: url("../img/spring/bg.gif");
     background-repeat: repeat-x;
     background-position: top center;
-    font-family: Arial, 'Helvetica', sans-serif;
+    background-color: rgb(249, 247, 232);
+    background-position-x: center;
+    background-position-y: top;
+    background-attachment: scroll;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
 
 header {
